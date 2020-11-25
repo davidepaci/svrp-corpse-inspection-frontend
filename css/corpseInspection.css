@@ -1,0 +1,114 @@
+/* Text Font */
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF');
+}
+
+.text {
+    font-family: MyriadPro-Regular;
+    font-size: 1.5vw;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* Corpse Inspection Container */
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.inspection-container {
+    margin: auto;
+    background-color: rgba(30,30,30,0.85);
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+/* Corpse */
+.corpse {
+    margin-top: 9vh;
+}
+
+/*.corpse-img {
+    height: 50vh;
+    width: 50vw;
+    background: url('../img/corpse.png') no-repeat center;
+    background-repeat: no-repeat;
+    background-size: 18vh;
+}*/
+
+.corpse-picture {
+    height: 50vh;
+}
+
+.corpse-info {
+    background-color: rgba(30,30,30,1);
+    display: block;
+    color: white;
+    padding: 1vh;
+    border-radius: 20px;
+    margin-right: 1vw;
+    display: none;
+}
+
+.tooltip {
+    opacity: 1!important;
+}
+
+/* Body parts */
+/*.invisible-area {
+    height: 8vh;
+    width: 4vw;
+    display: block;
+    position: absolute;
+}
+
+.bodypart-head {
+    margin-left: 19vw;
+    margin-top: 1.5vh;
+    background-color: aqua;
+}
+
+.bodypart-torso {
+    height: 16.5vh;
+    margin-left: 18.8vw;
+    margin-top: 9.7vh;
+    background-color: blueviolet;
+}
+
+.bodypart-left-arm {
+    
+}
+
+.bodypart-right-arm {
+    height: 21vh;
+    width: 2vw;
+    margin-left: 16vw;
+    margin-top: 9.7vh;
+    background-color: green;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.bodypart-left-leg {
+
+}
+
+.bodypart-right-leg {
+
+}*/
+
+/* Leave inspection button */
+.leavebutton-col {
+    padding-top: 1vh;
+}
+
+.leavebutton {
+    font-size: 1vw;
+    font-family: MyriadPro-Regular;
+    margin-bottom: 1vh;
+    margin-left: 80%;
+}
